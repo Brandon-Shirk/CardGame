@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db58f9666c9857d4e9fb3838583613b8, type: 3}
+  m_Name: Dropper
+  m_EditorClassIdentifier: 
+  cardName: Dropper
+  manaType: 0
+  manaCost: 1
+  art: {fileID: 2800000, guid: e2736ab44ed8f3f4cb02e7855da99f40, type: 3}
+  superType: 1
+  subType: 1
+  movement: 4
+  strength: 3
+  defense: 3
+  rangedDistance: 8
+  rangedStrength: 4
+  effects:
+  - effectType: 1
+    isInstant: 0
+    effectManaCost: 1
+    effectRequirements: When deploying this model
+    effectText: You can deploy this model anywhere outside of the enemy base, and
+      at least 5 units from any enemy models.

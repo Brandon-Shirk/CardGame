@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db58f9666c9857d4e9fb3838583613b8, type: 3}
+  m_Name: Rabbit
+  m_EditorClassIdentifier: 
+  cardType: 0
+  cardName: Rabbit
+  manaType: 0
+  manaCost: 1
+  art: {fileID: 2800000, guid: b558bd440bef24c45b20ba492d926a98, type: 3}
+  superType: 2
+  subType: 3
+  movement: 10
+  strength: 1
+  defense: 1
+  rangedDistance: '-'
+  rangedStrength: '-'
+  effects:
+  - effectType: 0
+    isInstant: 0
+    effectManaCost: 1
+    effectRequirements: 
+    effectText: Return this model to your hand, then select one beast in your hand,
+      pay its cost, and deploy it in place of this model.

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db58f9666c9857d4e9fb3838583613b8, type: 3}
+  m_Name: DropPod
+  m_EditorClassIdentifier: 
+  cardType: 1
+  cardName: Drop Pod
+  manaType: 0
+  manaCost: 2
+  art: {fileID: 2800000, guid: a0fc9d12c2cd89b48a5a33525d022844, type: 3}
+  superType: 1
+  subType: 1
+  movement: 4
+  strength: 3
+  defense: 3
+  rangedDistance: 8
+  rangedStrength: 4
+  effects:
+  - effectType: 0
+    isInstant: 0
+    effectManaCost: 
+    effectRequirements: 
+    effectText: Choose one creature from your deck, pay its cost, then deploy it
+      anywhere outside of the enemy base and at least 3 units away from any enemy
+      models.

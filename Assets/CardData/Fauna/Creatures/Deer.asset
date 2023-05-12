@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db58f9666c9857d4e9fb3838583613b8, type: 3}
+  m_Name: Deer
+  m_EditorClassIdentifier: 
+  cardType: 0
+  cardName: Deer
+  manaType: 0
+  manaCost: 2
+  art: {fileID: 2800000, guid: 4549b6b631012f041a4ba36cad94f9ce, type: 3}
+  superType: 2
+  subType: 3
+  movement: 5
+  strength: 3
+  defense: 4
+  rangedDistance: '-'
+  rangedStrength: '-'
+  effects:
+  - effectType: 1
+    isInstant: 0
+    effectManaCost: 
+    effectRequirements: (Hand) If a beast you control is slain
+    effectText: You can deploy this model ignoring its cost.
+  - effectType: 1
+    isInstant: 0
+    effectManaCost: 
+    effectRequirements: If a beast you control is slain within 3 units of this model
+    effectText: Select one model from your hand or deck, pay its cost, then you can
+      deploy it within 3 units of this model.
